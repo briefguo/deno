@@ -2,7 +2,7 @@
 
 addEventListener("fetch", (event: FetchEvent) => {
   event.respondWith(
-    new Response("Hello world", {
+    new Response("Hello world, I'm GYJ", {
       status: 200,
       headers: {
         server: "deploy",
